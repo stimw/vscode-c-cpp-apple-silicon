@@ -1,11 +1,14 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(temp VERSION 0.1.0)
+project(demo VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
 
-add_executable(temp main.cpp)
+include_directories(includes)
+
+add_executable(demo main.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+set(CMAKE_EXPORT_COMPILECOMMANDS ON)
 include(CPack)

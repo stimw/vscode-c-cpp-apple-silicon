@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/tianwushen/codework/vscode-cpp-cmake-demo/build",
+  "command": "/usr/bin/clang++  -I/Users/tianwushen/codework/vscode-cpp-cmake-demo/includes -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o CMakeFiles/demo.dir/main.cpp.o -c /Users/tianwushen/codework/vscode-cpp-cmake-demo/main.cpp",
+  "file": "/Users/tianwushen/codework/vscode-cpp-cmake-demo/main.cpp"
+}
+]
